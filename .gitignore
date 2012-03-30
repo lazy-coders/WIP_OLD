@@ -1,0 +1,9 @@
+stacktrace.log
+plugins/core/
+.DS_Store
+target
+web-app/upload
+.settings
+.classpath
+*.swp
+.project
