@@ -13,6 +13,8 @@ class User {
 	boolean accountLocked
 	boolean passwordExpired
 
+	static hasMany = [ posts: Post ]
+
 	static constraints = {
 		fullName blank: false, maxSize: 50
 		username blank: false, unique: true

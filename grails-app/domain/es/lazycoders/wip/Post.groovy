@@ -1,7 +1,8 @@
 package es.lazycoders.wip
 
 class Post {
-
-    static constraints = {
-    }
+	String text
+	
+	static constraints = {
+	}
 }
